@@ -1,0 +1,6 @@
+Django==2.2
+channels
+docutils
+requests
+djangorestframework
+coverage

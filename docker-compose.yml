@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    build: ./django
+    container_name: pizza_web
+    restart: unless-stopped
+    volumes:
+      - ./django:/django
+    ports:
+      - "8000:80"
